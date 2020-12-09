@@ -30,5 +30,7 @@ int main()
         myStack.PrettyPrint();
     }
     
+    //checking the size of the stack
+    std::cout << myStack.Size() << std::endl;
 
 }
